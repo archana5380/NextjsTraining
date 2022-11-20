@@ -29,7 +29,7 @@ const Products=(props) =>{
                          {item.description}
                          </Card.Text>
                          <h6>Rs. {item.price}</h6>
-                         <Button variant="primary">Read More</Button>
+                         <Button className={Styles.cardbtn + " btn"}>Read More</Button>
                        </Card.Body>
             </Card>
             </div>
